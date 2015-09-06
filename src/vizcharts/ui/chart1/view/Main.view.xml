@@ -1,0 +1,14 @@
+<core:View
+    controllerName="chart1.controller.Main"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:viz="sap.viz.ui5.controls"
+>
+  <viz:Popover id="idPopOver" />
+  <viz:VizFrame
+      id="idVizFrameBar"
+      uiConfig="{applicationSet:'fiori'}"
+      vizType="bar"
+      width="100%"
+  />
+</core:View>

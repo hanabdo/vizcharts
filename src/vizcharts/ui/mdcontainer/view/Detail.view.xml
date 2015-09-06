@@ -1,0 +1,18 @@
+<core:View
+    controllerName="mdcontainer.controller.Detail"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+>
+  <Page
+      showHeader="true"
+      showFooter="false"
+  >
+    <content>
+      <core:ComponentContainer
+          name="chart1"
+          url="/vizcharts/chart1"
+      />
+    </content>
+
+  </Page>
+</core:View>

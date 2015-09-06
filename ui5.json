@@ -1,0 +1,40 @@
+{
+    "preset": "yandex",
+    "version": "0.1",
+
+    "maximumLineLength": {
+        "value": 80,
+        "allowUrlComments": true
+    },
+    "validateIndentation": 2,
+    "disallowNewlineBeforeBlockStatements": true,
+    "disallowOperatorBeforeLineBreak": ["."],
+    "requireOperatorBeforeLineBreak": [
+        "?",
+        "=",
+        "+",
+        "-",
+        "/",
+        "*",
+        "==",
+        "===",
+        "!=",
+        "!==",
+        ">",
+        ">=",
+        "<",
+        "<="
+    ],
+    "requireTrailingComma": {
+        "ignoreSingleLine": true
+    },
+    "requireSpaceBeforeBlockStatements": 1,
+    "requireCamelCaseOrUpperCaseIdentifiers": true,
+    "requireDollarBeforejQueryAssignment": true,
+    "requireSpaceBeforeObjectValues": true,
+    "validateQuoteMarks": {
+        "mark": "'",
+        "escape": true
+    },
+    "requireBlocksOnNewline": true
+}

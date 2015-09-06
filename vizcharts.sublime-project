@@ -1,0 +1,46 @@
+{
+	"folders":
+	[
+		{
+			"name": "vizcharts-ui-src",
+			"path": "src/vizcharts/ui",
+			"file_exclude_patterns":
+			[
+				"*-dbg.js",
+				"*-dbg.controller.js",
+				"*-dbg.json"
+			]
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"*.js.html"
+			],
+			"folder_exclude_patterns":
+			[
+				"fonts",
+				"styles",
+				"scripts"
+			],
+			"name": "vizcharts-ui-doc",
+			"path": "build/out/doc/"
+		},
+		{
+			"name": "project-root",
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"tab_size": 2,
+		"ensure_newline_at_eof_on_save": true,
+		"translate_tabs_to_spaces": true,
+		"trim_trailing_white_space_on_save": true,
+		"rulers":
+		[
+			80
+		],
+		"word_wrap": true,
+		"wrap_width": 0
+	}
+}

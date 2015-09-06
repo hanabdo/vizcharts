@@ -1,0 +1,12 @@
+{
+    "linters": {
+        "jscs": {
+            "@disable": false,
+            "args": [
+                "--config",
+                "ui5.json"
+            ],
+            "excludes": []
+        }
+    }
+}

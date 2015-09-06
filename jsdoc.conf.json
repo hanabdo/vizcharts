@@ -1,0 +1,23 @@
+{
+    "tags": {
+        "allowUnknownTags": true
+    },
+    "source": {
+        "includePattern": ".+\\.js(doc)?$",
+        "excludePattern": "(.*-dbg.js|.*-dbg.controller.js)"
+    },
+    "plugins": [],
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false,
+        "default": {
+            "outputSourceFiles": true
+        }
+    },
+    "opts": {
+        "_": ["./"],
+        "recurse": true,
+        "readme": "./README.md",
+        "encoding": "utf8"
+    }
+}

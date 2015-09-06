@@ -1,0 +1,28 @@
+<core:View
+    controllerName="mdcontainer.controller.Master"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+>
+  <Page
+      showFooter="true"
+      showHeader="true"
+      title="charts"
+  >
+    <content>
+      <List
+        items="{gSettings>/charts}"
+        mode="SingleSelectMaster"
+        selectionChange="navToChart"
+        selectedItem="{gSettings>/selectedChart}"
+      >
+        <StandardListItem
+          title="{gSettings>name}"
+          description="{gSettings>description}"
+          app:url="{gSettings>url}"
+          app:name="{gSettings>name}"
+        />
+      </List>
+    </content>
+  </Page>
+</core:View>

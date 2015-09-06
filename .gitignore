@@ -1,0 +1,39 @@
+# local configuration
+/localconfig.json
+
+# sapui5 specific
+# all output files *-dbg.js and *-preload.js, jsdocs and zip distributive
+build
+*-dbg.js
+*-dbg.controller.js
+*-dbg.json
+
+# Node dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# SublimeText globals
+# https://raw.githubusercontent.com/github/gitignore/master/Global/SublimeText.gitignore
+
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+# sftp configuration file
+sftp-config.json
+
+# SublimeText grunt plugin cache file
+# https://packagecontrol.io/packages/Grunt
+.sublime-grunt.cache
+
+# linux specific ignores
+.directory
+
